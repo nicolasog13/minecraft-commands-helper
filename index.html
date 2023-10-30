@@ -1,0 +1,19 @@
+bottom right corner:)
+
+<script type="text/javascript">
+  (function () {
+    var sdk = document.createElement('script');
+    sdk.type = 'text/javascript';
+    sdk.async = true;
+    sdk.src = "https://miniapps.ai/plugin/embed.js";
+    sdk.onload = function () {
+      const miniApp = new MiniAppsSDK({
+        id: "4cf82202-0cf5-4c6d-95c5-171e3896bb2f",
+        mode: "floating",
+      });
+      miniApp.init();
+    };
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(sdk, s);
+  })();
+</script>
